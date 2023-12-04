@@ -16,9 +16,12 @@ if not os.path.isfile(STBAR_input_path):
 STBAR_doom = cv2.imread(STBAR_doom_path)
 STBAR_input = cv2.imread(STBAR_input_path)
 
-STBAR_left = STBAR_doom[:, :83]
-STBAR_right = STBAR_doom[:, -83:]
-STBAR_centre = STBAR_doom[:, 83:403]
+STBAR_doom_width = STBAR_doom.shape[1]
+STBAR_slice_width = int( (STBAR_doom_width - 320) / 2 )
+
+STBAR_left = STBAR_doom[:, :STBAR_slice_width]
+STBAR_right = STBAR_doom[:, -STBAR_slice_width:]
+STBAR_centre = STBAR_doom[:, STBAR_slice_width:(STBAR_doom_width - STBAR_slice_width)]
 
 left_colors = set([tuple(c) for c in STBAR_left.reshape(-1, 3).tolist()])
 right_colors = set([tuple(c) for c in STBAR_right.reshape(-1, 3).tolist()])

@@ -2,7 +2,7 @@
 
 
 # Installation
-This Python script requires Python to run, download here: https://www.python.org/downloads/.
+This Python script requires Python to run, download here: https://www.python.org/downloads/
 
 This Python script also requires two Python libraries - **opencv** and **numpy**.
 

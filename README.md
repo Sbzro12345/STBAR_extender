@@ -49,8 +49,7 @@ If that fails too, download get-pip.py from https://pip.pypa.io/en/stable/instal
 
 ```py get-pip.py```
 
-This Python script also requires two external Python libraries - **opencv** and **numpy**.
-
+## This Python script also requires two external Python libraries - **opencv** and **numpy**.
 ### Installing numpy
 To install **numpy**, open Command Prompt or PowerShell and run the following command:
 If you use macOS or Linux, just run it in Terminal

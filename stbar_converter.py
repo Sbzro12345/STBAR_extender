@@ -57,6 +57,6 @@ new_STBAR = np.hstack([new_left_extension, STBAR_input, new_right_extension])
 cv2.imwrite(os.path.join(script_dir, "STBAR_extended.png"), new_STBAR)
 
 print("Extended STBAR made successfully")
-print("STBAR_extended.png is output to the directory where this script/binary was ran")
+print("STBAR_extended.png is output to the directory where this script was ran")
 print("\nPress Enter key to exit")
 input()

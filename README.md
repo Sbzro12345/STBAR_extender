@@ -1,5 +1,5 @@
 # What does the script do
-The script extends huds based off of previously extended huds that look similar, but are just re-colored. Here are some examples of it in action. For this example, I will be using the extended hud **doom_wide.wad** from OpenRift's Google Drive link: https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/
+The script extends huds based off of previously extended huds that look similar, but are just re-colored. Here are some examples of it in action. For this example, I will be using the 486x32 extended hud **doom_wide.wad** from OpenRift's Google Drive link: https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/
 
 ![STBAR_doom](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/d40517df-8221-4ff9-8e8f-fdaa5e30a26b)
 
@@ -25,6 +25,9 @@ Mayan Mishap
 
 ![STBAR](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/7aadfb89-45d4-4816-a0fc-32dbb15b3c70)
 
+Example of this 576x32 statusbar being used on Mayan Mishap
+
+![STBAR_extended](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/5e596019-7fe3-4bb1-ab88-dc183bfe25ec)
 
 # Installation
 This Python script requires Python to run, download here: https://www.python.org/downloads/

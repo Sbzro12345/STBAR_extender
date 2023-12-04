@@ -34,6 +34,14 @@ Different output than above example of Mayan Mishap
 # Installation
 This Python script requires Python to run, download here: https://www.python.org/downloads/
 
+After installing Python, you need to install pip. Open Command Prompt or PowerShell and run the following command:
+```python -m ensurepip --upgrade```
+If that fails to install pip, try this command:
+```py -m ensurepip --upgrade```
+If that fails too, download get-pip.py from https://pip.pypa.io/en/stable/installation/. Open Command Prompt or PowerShell and change directory to where get-pip.py is located, then run either command in Command Prompt or PowerShell:
+```python get-pip.py```
+```py get-pip.py```
+
 This Python script also requires two external Python libraries - **opencv** and **numpy**.
 
 #### Installing numpy

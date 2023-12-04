@@ -4,7 +4,7 @@
 # Installation
 This Python script requires Python to run, download here: https://www.python.org/downloads/
 
-This Python script also requires two Python libraries - **opencv** and **numpy**.
+This Python script also requires two external Python libraries - **opencv** and **numpy**.
 
 #### Installing numpy
 To install **numpy**, open Command Prompt or PowerShell and run the following command:

@@ -9,6 +9,18 @@ Haste
 
 ![STBAR](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/f02c9d0d-0a2e-4ca2-b350-c3301d28f337)
 
+Fallen Leaves
+
+![STBAR_extended](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/3ce2816a-8707-42a1-a75a-eeb0e92579a1)
+
+Not Even Remotely Fair
+
+![STBAR_extended](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/9f3177c4-1706-40f7-8b33-e306886ec952)
+
+Mayan Mishap
+
+![STBAR_extended](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/811c1a23-0bf8-4aee-aa9e-16ec4a47c476)
+
 
 # Installation
 This Python script requires Python to run, download here: https://www.python.org/downloads/

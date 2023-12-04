@@ -27,7 +27,7 @@ Example of this **different** 576x32 statusbar being used as a **different input
 
 ![STBAR](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/7aadfb89-45d4-4816-a0fc-32dbb15b3c70)
 
-Different output
+Different output than above example of Mayan Mishap
 
 ![STBAR_extended](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/5e596019-7fe3-4bb1-ab88-dc183bfe25ec)
 

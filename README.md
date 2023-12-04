@@ -3,6 +3,8 @@ The script extends huds to 486x32 based off of previously extended huds that loo
 
 ![STBAR_doom](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/d40517df-8221-4ff9-8e8f-fdaa5e30a26b)
 
+**NOTE:** The list of STBARs this script can work on is not exhaustively listed here, and the **output quality of the script heavily relies on the extended hud template (STBAR_doom.wad) provided as an input.** This script works very well for STBARs that copy the original DOOM style with re-coloring only.
+
 ### From this one extended hud, here are some examples of huds that the script can extend:
 
 Haste

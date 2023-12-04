@@ -3,7 +3,7 @@ The script extends huds to 486x32 based off of previously extended huds that loo
 
 ![STBAR_doom](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/d40517df-8221-4ff9-8e8f-fdaa5e30a26b)
 
-#### From this one extended hud, here are some examples of huds that the script can extend:
+### From this one extended hud, here are some examples of huds that the script can extend:
 
 Haste
 

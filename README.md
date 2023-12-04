@@ -21,7 +21,7 @@ Mayan Mishap
 
 ![STBAR_extended](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/811c1a23-0bf8-4aee-aa9e-16ec4a47c476)
 
-**NOTE:** This script works well for STBARs that copy a pre-existing STBAR with an extended hud made for it, such as the original DOOM STBAR. However, this is not the only use of this script, nor is this the list of STBARs this script can work on is not exhaustively listed here. The **output quality of the script heavily relies on the quality of the extended hud template (STBAR_doom.wad).** For example, the usage of this different extended HUD for Ultimate DOOM will affect the output of the program: https://github.com/bangstk/doom-wad-autoloads/blob/main/autoload/doom-all/doom-all_bar_uwide21.wad
+**NOTE:** This script works well for STBARs that copy a pre-existing STBAR with an extended hud made for it, such as the original DOOM STBAR. However, this is not the only use of this script, nor is this the exhaustive list of STBARs this script can work on. The **output quality of the script heavily relies on the quality of the extended hud template (STBAR_doom.wad).** For example, the usage of this different extended HUD for Ultimate DOOM will affect the output of the program: https://github.com/bangstk/doom-wad-autoloads/blob/main/autoload/doom-all/doom-all_bar_uwide21.wad
 
 Example of this **different** 576x32 statusbar being used as a **different input** on Mayan Mishap
 

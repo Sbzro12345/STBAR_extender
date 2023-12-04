@@ -1,9 +1,13 @@
 # What does the script do
-The script extends huds based off of previously extended huds that look similar, but are just re-colored. Here are some examples of it in action. For this example, I will be using the extended hud **doom_wide.wad** from OpenRift's Google Drive link: https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/
+The script extends huds to 486x32 based off of previously extended huds that look similar, but are just re-colored. Here are some examples of it in action. For this example, I will be using the extended hud **doom_wide.wad** from OpenRift's Google Drive link: https://www.doomworld.com/forum/topic/121385-widescreen-assets-pack-and-appreciation-thread/
 
 ![STBAR_doom](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/d40517df-8221-4ff9-8e8f-fdaa5e30a26b)
 
-From this one extended hud, here are some huds that the script can extend:
+From this one extended hud, here are some examples of huds that the script can extend:
+
+Haste
+
+![STBAR](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/f02c9d0d-0a2e-4ca2-b350-c3301d28f337)
 
 
 # Installation

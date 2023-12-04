@@ -21,7 +21,7 @@ Mayan Mishap
 
 ![STBAR_extended](https://github.com/Sbzro12345/STBAR_extender/assets/72307706/811c1a23-0bf8-4aee-aa9e-16ec4a47c476)
 
-**NOTE:** The list of STBARs this script can work on is not exhaustively listed here, and the **output quality of the script heavily relies on the extended hud template (STBAR_doom.wad) provided as an input.** This script works very well for STBARs that copy the original DOOM style with re-coloring only.
+**NOTE:** The list of STBARs this script can work on is not exhaustively listed here, and the **output quality of the script heavily relies on the quality of the extended hud template (STBAR_doom.wad) provided as an input.** This script works very well for STBARs that copy the original DOOM style with re-coloring only.
 
 # Installation
 This Python script requires Python to run, download here: https://www.python.org/downloads/

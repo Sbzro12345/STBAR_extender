@@ -63,7 +63,7 @@ If you use macOS or Linux, just run it in Terminal
 # How to use the script
 Once Python and the required libraries are installed, simply run **stbar_converter.py** in Python.
 The script **REQUIRES** two files in the same directory as the script:
-1. A **320x32** image named "**STBAR.png**". Case sensitive, and must be png. STBAR.png is the original STBAR from PWADs that is to be extended.
-2. An image named "**STBAR_doom.png**". Case sensitive, and must be png. Must be 32 pixels in height and have a width greater than 320 pixels. STBAR_doom.png is the extended hud used to extend STBAR.
+1. An image named "**STBAR.png**". Case sensitive, and must be png. Must be 32 pixels in height. STBAR.png is the original STBAR from PWADs that is to be extended.
+2. An image named "**STBAR_doom.png**". Case sensitive, and must be png. Must be 32 pixels in height and have a width greater than STBAR.png. STBAR_doom.png is the extended hud used to extend STBAR.
 
-If everything runs correctly, the script will output the extended STBAR as "STBAR_extended.png" in the same directory as itself after running.
+If everything runs correctly, the script will overwrite "STBAR.PNG" with the extended STBAR.

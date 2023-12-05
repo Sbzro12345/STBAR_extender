@@ -6,18 +6,29 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 
 STBAR_doom_path = os.path.join(script_dir, "STBAR_doom.png")
 STBAR_input_path = os.path.join(script_dir, "STBAR.png")
+missing_flag = 0
+
+print("\n")
 
 if not os.path.isfile(STBAR_doom_path):
-    raise FileNotFoundError("The required file STBAR_doom.png not found in the script directory.")
+    missing_flag = 1
+    print("The required file STBAR_doom.png not found in the script directory.")
 
 if not os.path.isfile(STBAR_input_path):
-    raise FileNotFoundError("The required file STBAR.png not found in the script directory.")
+    missing_flag = 1
+    print("The required file STBAR.png not found in the script directory.")
+
+if(missing_flag == 1):
+    print("\nPress Enter key to exit")
+    input()
+    raise FileNotFoundError("One or more files were not found in script directory")
 
 STBAR_doom = cv2.imread(STBAR_doom_path)
 STBAR_input = cv2.imread(STBAR_input_path)
 
 STBAR_doom_width = STBAR_doom.shape[1]
-STBAR_slice_width = int( (STBAR_doom_width - 320) / 2 )
+STBAR_width = STBAR_input.shape[1]
+STBAR_slice_width = int( (STBAR_doom_width - STBAR_width) / 2 )
 
 STBAR_left = STBAR_doom[:, :STBAR_slice_width]
 STBAR_right = STBAR_doom[:, -STBAR_slice_width:]
@@ -54,9 +65,9 @@ for y in range(STBAR_right.shape[0]):
 
 new_STBAR = np.hstack([new_left_extension, STBAR_input, new_right_extension])
 
-cv2.imwrite(os.path.join(script_dir, "STBAR_extended.png"), new_STBAR)
+cv2.imwrite(os.path.join(script_dir, "STBAR.png"), new_STBAR)
 
-print("Extended STBAR made successfully")
-print("STBAR_extended.png is output to the directory where this script was ran")
+print("Extended STBAR made successfully.")
+print("STBAR.png in directory where this script was ran has been successfully overwritten with the extended STBAR.")
 print("\nPress Enter key to exit")
 input()

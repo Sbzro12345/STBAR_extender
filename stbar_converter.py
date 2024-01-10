@@ -11,6 +11,7 @@ STBAR_input_path = os.path.join(script_dir, "STBAR.png")
 missing_flag = 0
 
 print(copyright)
+print("====================================================================")
 print("\n\n\n\n\n")
 
 if not os.path.isfile(STBAR_doom_path):

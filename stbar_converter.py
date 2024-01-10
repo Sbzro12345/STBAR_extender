@@ -2,13 +2,16 @@ import cv2
 import numpy as np
 import os
 
+copyright = "DOOM STBAR Extender Script\nCopyright (C) 2023  Sbzro12345\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>."
+
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 STBAR_doom_path = os.path.join(script_dir, "STBAR_doom.png")
 STBAR_input_path = os.path.join(script_dir, "STBAR.png")
 missing_flag = 0
 
-print("\n")
+print(copyright)
+print("\n\n\n\n\n")
 
 if not os.path.isfile(STBAR_doom_path):
     missing_flag = 1
